@@ -14,23 +14,16 @@ $screen-sm-min: 768px;
 $screen-md-min: 992px;
 $screen-lg-min: 1200px;
 
-
-// Custom clases
-
-.mgt20 {
-margin-top:0px
-}
-
 .header {
     border-bottom:1px solid #ddd;
     margin-bottom: 5px;
 
 	h1 {
-	font-family: open_sanssemibold;
-    font-size: 24px;
-    color: #444;
-    line-height: 28px;
-    margin-top: 20px;
+    	font-family: open_sanssemibold;
+        font-size: 24px;
+        color: #444;
+        line-height: 28px;
+        margin-top: 20px;
 	}
     .navbar-nav {
         margin-top: 19px;
@@ -48,9 +41,9 @@ margin-top:0px
                 }
             }
             &.active {
-                   a { 
+                a { 
                     color: #2c9ca6; border-bottom: 2px solid #2c9ca6;
-                   }    
+                }    
             } 
             &.last {
             margin-right:0;
@@ -88,7 +81,6 @@ margin-top:0px
         margin-top:5px;
 
         li {
-
             margin-bottom:0px;
             margin-right:0px;
             width:50%;
@@ -98,11 +90,12 @@ margin-top:0px
                
                 border:none;
                 color:#fff;
-            &:hover {
-                border-top:none;
-                border-left:none;
-                border-right:none;
-            }
+
+                &:hover {
+                    border-top:none;
+                    border-left:none;
+                    border-right:none;
+                }
             }
 
             &.active a {
@@ -134,8 +127,8 @@ margin-top:0px
             border-radius:0;
         }
         input, select {
-        border:none;
-        border-radius:0;
+        border:none; // reset boosptrap
+        border-radius:0;// reset boosptrap
         width: 100%;
         }
         .inpDif1 {
@@ -162,8 +155,6 @@ margin-top:0px
                 font-size:12px;
                 
             }
-            
-
         }
     }
 } 
@@ -177,15 +168,16 @@ margin-top:0px
             overflow:hidden;
         }
         .infoImage {
-            
             position: absolute;
             top: 27px;
             left: 12px;
             right: 0;
             color: #fff;
+
             & > span {
                 display:block;
             } 
+
             .nights, .moreInfo {
                 font-size:10px;
             }
@@ -211,10 +203,10 @@ margin-top:0px
         
         .title-search {
 
-        h2 { 
-            font-size: 37px;
+            h2 { 
+                font-size: 37px;
+            }
         }
-    }
 
       .nav-tabs {
         margin-top:5px;
@@ -229,11 +221,11 @@ margin-top:0px
                 border:none;
                 padding:11px 30px;
                 color:#fff;
-            &:hover {
-                border-top:none;
-                border-left:none;
-                border-right:none;
-            }
+                &:hover {
+                    border-top:none;
+                    border-left:none;
+                    border-right:none;
+                }
             }
 
             &.active a {
@@ -257,8 +249,8 @@ margin-top:0px
     }
 }
 
-.sites {
-         .column-box .infoImage {
+    .sites {
+        .column-box .infoImage {
             top: 47px;
             left: 30px;
             right: 0;
@@ -276,16 +268,8 @@ margin-top:0px
                 } 
             }
         }
-        .box {
-            margin-top:5px;
-            position:relative;
-        }
     } 
-
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: $screen-lg-min) { 
- }
 
 

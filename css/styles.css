@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url("../fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot");
+  src: url("../fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.woff") format("woff"), url("../fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.ttf") format("truetype"), url("../fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.svg#open_sanssemibold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.mgt20 {
+  margin-top: 0px; }
+
+.header {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 5px; }
+  .header h1 {
+    font-family: open_sanssemibold;
+    font-size: 24px;
+    color: #444;
+    line-height: 28px;
+    margin-top: 20px; }
+  .header .navbar-nav {
+    margin-top: 19px; }
+    .header .navbar-nav li {
+      margin-right: 30px; }
+      .header .navbar-nav li a {
+        padding: 0;
+        font-family: open_sanssemibold,sans-serif;
+        font-size: 15px;
+        color: #666;
+        padding-bottom: 10px; }
+        .header .navbar-nav li a:hover {
+          background: none; }
+      .header .navbar-nav li.active a {
+        color: #2c9ca6;
+        border-bottom: 2px solid #2c9ca6; }
+      .header .navbar-nav li.last {
+        margin-right: 0; }
+
+.form {
+  min-height: 545px;
+  overflow: hidden;
+  width: 100%;
+  background: url("../images/VIA_background_00.jpg") no-repeat center center;
+  display: block; }
+  .form .title-search {
+    text-align: center;
+    margin-top: 20px;
+    display: block; }
+    .form .title-search h2 {
+      font-family: open_sanssemibold;
+      font-size: 20px;
+      margin-bottom: 8px;
+      color: #fff; }
+    .form .title-search p {
+      font-size: 14px;
+      color: #fff; }
+  .form .nav-tabs {
+    margin-top: 5px; }
+    .form .nav-tabs li {
+      margin-bottom: 0px;
+      margin-right: 0px;
+      width: 50%;
+      text-align: center; }
+      .form .nav-tabs li a {
+        border: none;
+        color: #fff; }
+        .form .nav-tabs li a:hover {
+          border-top: none;
+          border-left: none;
+          border-right: none; }
+      .form .nav-tabs li.active a {
+        background: transparent;
+        border: none;
+        color: #fff;
+        font-weight: bold;
+        border-bottom: 5px solid #fff; }
+  .form .tab-content {
+    background: transparent;
+    padding: 20px; }
+    .form .tab-content label {
+      display: block;
+      color: #fff;
+      font-weight: normal;
+      font-size: 13px; }
+    .form .tab-content .form-inline .form-group {
+      vertical-align: bottom; }
+    .form .tab-content .input-group-addon {
+      border: none;
+      background: #fff;
+      color: #acacac;
+      border-radius: 0; }
+    .form .tab-content input, .form .tab-content select {
+      border: none;
+      border-radius: 0;
+      width: 100%; }
+    .form .tab-content .inpDif1 {
+      padding-left: 0; }
+    .form .tab-content .inpDif2 {
+      padding: 0; }
+    .form .tab-content button {
+      background: #de0000;
+      color: #fff;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      width: 100%; }
+    .form .tab-content .dropdown {
+      margin-top: 20px; }
+      .form .tab-content .dropdown a {
+        color: #fff;
+        font-size: 12px; }
+
+.sites {
+  margin: 30px auto 30px auto; }
+  .sites .column-box {
+    padding: 0 3px; }
+    .sites .column-box .image {
+      overflow: hidden; }
+    .sites .column-box .infoImage {
+      position: absolute;
+      top: 27px;
+      left: 12px;
+      right: 0;
+      color: #fff; }
+      .sites .column-box .infoImage > span {
+        display: block; }
+      .sites .column-box .infoImage .nights, .sites .column-box .infoImage .moreInfo {
+        font-size: 10px; }
+      .sites .column-box .infoImage .title {
+        font-size: 11px;
+        font-weight: bold;
+        text-transform: uppercase; }
+    .sites .column-box .box {
+      margin-top: 5px;
+      position: relative; }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .form {
+    min-height: 300px; }
+    .form .title-search h2 {
+      font-size: 37px; }
+    .form .nav-tabs {
+      margin-top: 5px;
+      border: none; }
+      .form .nav-tabs li {
+        margin-right: 10px;
+        width: auto; }
+        .form .nav-tabs li a {
+          background: rgba(255, 255, 255, 0.2);
+          border: none;
+          padding: 11px 30px;
+          color: #fff; }
+          .form .nav-tabs li a:hover {
+            border-top: none;
+            border-left: none;
+            border-right: none; }
+        .form .nav-tabs li.active a {
+          background: rgba(0, 0, 0, 0.45);
+          border: none; }
+    .form .tab-content {
+      background: rgba(0, 0, 0, 0.45); }
+      .form .tab-content .inpDif2, .form .tab-content .inpDif1 {
+        float: none;
+        width: auto;
+        padding: 0; }
+      .form .tab-content button {
+        width: auto; }
+
+  .sites .column-box .infoImage {
+    top: 47px;
+    left: 30px;
+    right: 0; }
+    .sites .column-box .infoImage .title {
+      font-size: 23px; }
+    .sites .column-box .infoImage .nights, .sites .column-box .infoImage .moreInfo {
+      font-size: 15px; }
+    .sites .column-box .infoImage .moreInfo {
+      margin-top: 20px; }
+      .sites .column-box .infoImage .moreInfo span {
+        font-size: 24px; }
+  .sites .box {
+    margin-top: 5px;
+    position: relative; } }
+/* Large devices (large desktops, 1200px and up) */
